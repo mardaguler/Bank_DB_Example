@@ -11,11 +11,11 @@ public class Main {
     private static Connection conn;
     private static PreparedStatement ps;
     private static Scanner scanner;
-    private static String HOST_NAME = "localhost";
-    private static final String PORT = "3306";               // mysql use this port(default)
-    private static final String USER_NAME = "root";          // admin name: root
-    private static final String PASSWORD = "#123321#%&";     // admin pwd
-    private static final String DB_NAME = "bank_db";           // DB name (model in mysql workbench)
+    private static String HOST_NAME = "";
+    private static final String PORT = "";               // mysql use this port(default)
+    private static final String USER_NAME = "";          // admin name: root
+    private static final String PASSWORD = "";     // admin pwd
+    private static final String DB_NAME = "";           // DB name (model in mysql workbench)
 
     // 'Pizza' = not sensitive
     // Pizza = sensitive
